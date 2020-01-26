@@ -29,10 +29,19 @@ We will be using terminal on Mac/Linux computers or command prompt on Windows.
     So that later you can install same packages but of different version. It's a best practice to create a virtual
     environment for any new Python project.
 
+    Open your terminal or command prompt and navigate inside the folder where you downloaded/cloned the code.
+    The folder must be called something like `codingmeetup` or `codingmeetup-master`.
+    Then run:
     ``$ python3 -m venv venv``
+
+    Activate the environment by running:
+
+    ``source venv/bin/activate``
+
+    You should see a `venv` word in your terminal before the path.
 4. Install the libraries.
 
-    To install all the required dependencies (requests library, Flask) run:
+     To install all the required dependencies (requests library, Flask) run:
 
     ``$ pip install -r requirements.txt``
 
@@ -40,7 +49,7 @@ We will be using terminal on Mac/Linux computers or command prompt on Windows.
 
 `$ export FLASK_APP=app.py`
 
-   On Windows:
+   On Windows in your command prompt run:
 ``set FLASK_APP=app.py``
 
 6. Run Flask server:
@@ -48,6 +57,15 @@ We will be using terminal on Mac/Linux computers or command prompt on Windows.
 
 7. Now head over to http://127.0.0.1:5000/names
 
+
+
+# Resources
+
+Python3 download:
+https://www.python.org/downloads/
+
+Installing pip on Mac, Linux, Windows:
+https://techworm.net/programming/install-pip-python-mac-windows-linux/
 
 Documentation on Flask:
 https://flask.palletsprojects.com/en/1.1.x/
