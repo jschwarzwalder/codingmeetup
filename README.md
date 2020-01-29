@@ -32,6 +32,7 @@ We will be using terminal on Mac/Linux computers or command prompt on Windows.
     Open your terminal or command prompt and navigate inside the folder where you downloaded/cloned the code.
     The folder must be called something like `codingmeetup` or `codingmeetup-master`.
     Then run:
+    
     ``$ python3 -m venv venv``
 
     Activate the environment by running:
@@ -47,10 +48,11 @@ We will be using terminal on Mac/Linux computers or command prompt on Windows.
 
 5. Tell terminal where does your Flask application reside by running:
 
-`$ export FLASK_APP=app.py`
+   `$ export FLASK_APP=app.py`
 
    On Windows in your command prompt run:
-``set FLASK_APP=app.py``
+   
+   ``set FLASK_APP=app.py``
 
 6. Run Flask server:
     ``flask run``
