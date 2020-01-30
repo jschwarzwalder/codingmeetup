@@ -23,7 +23,7 @@ We will be using terminal on Mac/Linux computers or command prompt on Windows.
     ``$ git clone https://github.com/elenaoat/codingmeetup.git``
 2. Open the repository with your editor (PyCharm, Sublime, Atom, etc.)
 
-3. Create a virtual environment.
+3. Optional: Create a virtual environment.
 
     To isolate your global environment from the packages that we are about to install, we will create a virtual environment.
     So that later you can install same packages but of different version. It's a best practice to create a virtual
@@ -54,6 +54,10 @@ We will be using terminal on Mac/Linux computers or command prompt on Windows.
    
    ``set FLASK_APP=app.py``
 
+6. Make Flask server reload data automatically on code changes:
+
+    `$ export FLASK_ENV=development`
+
 6. Run Flask server:
     ``flask run``
 
@@ -68,6 +72,9 @@ https://www.python.org/downloads/
 
 Installing pip on Mac, Linux, Windows:
 https://techworm.net/programming/install-pip-python-mac-windows-linux/
+
+Another resource on pip installation:
+https://projects.raspberrypi.org/en/projects/using-pip-on-windows/4
 
 Documentation on Flask:
 https://flask.palletsprojects.com/en/1.1.x/
