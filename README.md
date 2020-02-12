@@ -78,3 +78,6 @@ https://projects.raspberrypi.org/en/projects/using-pip-on-windows/4
 
 Documentation on Flask:
 https://flask.palletsprojects.com/en/1.1.x/
+
+JSONPlaceholder - Fake Online REST API for Testing and Prototyping
+https://jsonplaceholder.typicode.com/
